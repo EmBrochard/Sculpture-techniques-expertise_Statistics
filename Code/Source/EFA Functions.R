@@ -1,6 +1,9 @@
 
 # Code written by Lloyd Austin Courtenay
 
+# Copyright (C) 2025 Lloyd Courtenay
+# SPDX-License-Identifier: AGPL-3.0
+
 # this code requires the libraries ggplot2
 
 `%!in%` = Negate(`%in%`)

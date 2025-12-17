@@ -1,6 +1,9 @@
 
 # Code written by Lloyd Austin Courtenay
 
+# Copyright (C) 2025 Lloyd Courtenay
+# SPDX-License-Identifier: AGPL-3.0
+
 plot_profile <- function(profile) {
   
   par(mfrow = c(1,1), mar = c(5.1, 5, 4.1, 2.))
