@@ -84,7 +84,7 @@ Comments, questions, doubts, suggestions and corrections can all be directed to 
 This project is licensed under the GNU Affero General Public License v3.0.
 See the LICENSE file for details.
 
-<b> Copyright (C) 2024 Emilie Brochard, Lloyd Courtenay, Luc Doyon </b>
+<b> Copyright (C) 2025 Emilie Brochard, Lloyd Courtenay, Luc Doyon </b>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published
