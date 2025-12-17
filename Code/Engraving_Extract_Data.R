@@ -1,3 +1,5 @@
+# Copyright (C) 2025 Lloyd Courtenay
+# SPDX-License-Identifier: AGPL-3.0
 
 # libraries and functions -------------------------------
 
@@ -37,3 +39,4 @@ write.table(metric_results, "metric_results.csv", col.names = TRUE, row.names = 
             sep = ";")
 
 #
+
