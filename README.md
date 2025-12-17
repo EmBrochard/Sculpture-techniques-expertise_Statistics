@@ -53,22 +53,54 @@ The present repository contains:
 
 * <b> Codes </b>
    * <b>Source</b>
-    * EFA Functions
+    * EFA Functions.R
       * This code implements Elliptic Fourier Analysis (EFA) for outline-based shape analysis, including normalization, harmonic selection, PCA-based visualization of shape variation, and statistical diagnostics.
     * Profile_Code.R
       * This R script provides a set of functions for the extraction, normalization, visualization, and quantitative analysis of 2D profile data, including geometric measurements, asymmetry indices, landmark-based shape characterization, and circular–linear statistical analyses.
       <br>
   * <b>Engraving_Extract_Data.R</b>
     * This R script provides functions for generating profile images, extracting geometric measurements, computing landmarks, and exporting data for morphometric analyses, including writing Morphologika-compatible files and CSV tables.
-      <br>
+ <br><br> 
   * <b>Engraving_Analysis.R</b>
     * This main R script implements a complete analytical pipeline for 2D profile data, combining geometric measurements, circular and linear statistics, multivariate analyses, and elliptic Fourier–based shape and form analyses to investigate morphological variability and group differences.
-      <br>
+ <br><br>
   * <b>Roughness.R</b>
-    * Code used to .......
+    * This code provides a complete workflow for analyzing surface parameters: Step 1. Import data; Step 2. Initial statistics (Kruskal-Wallis, circular tests); Step 3. Filter significant and uncorrelated variables; Step 4. PCA; Step 5. LDA /CVA.
 
 --------------------------------------------------------
+## <b> Instructions </b>
 
+The engraving study must follow the following procedure:
+
+
+* First, for the code to work properly, the folder structure must be respected and organized as follows:
+
+  
+  ├── Dataset          (name that can be modified)
+  │   ├── Images       (name not to modify and keep uppercase + leave empty)
+  │   ├── Profiles     (name not to modify and keep uppercase + leave empty)
+  │   │   ├── Group A   (create a folder in any case inside Profiles; name that can be modified)
+  │   │   ├── Group B   (name that can be modified)
+  │   │   ├── Group C   (name that can be modified)
+  │   │   ├── ...
+
+
+* Create a main folder with a name of your choice, and inside it, insert the folders Dataset and Source:
+
+Folder name
+        Dataset    (names that can be modified)
+        Source     (R code from L.A. Courtenay – DO NOT MODIFY)
+        
+  ├── Folder name
+  │   ├── Dataset    (name that can be modified)
+  │   ├── Source     (EFA Functions.R and  Profile_Code.R – DO NOT MODIFY)
+
+* Turn this into an R project: In R → File → New Project → Existing Directory → paste the path to the folder → OK
+  
+* Run the “Engraving_Extract_Data” code. The incision profiles are now available in the “Profiles” folder within each group.
+  
+* Run the “Engraving_Analysis” code to continue the study.
+--------------------------------------------------------
 ## <b> System Requirements for Deep Learning </b>
 
 <i> Note that here we specify the versions of the libraries that we used for the present study. We are unaware if earlier or later versions of the same libraries will work or present problems, because we have not tested this, the objective here is simply to state how we ran each of the codes presented </i>
@@ -96,9 +128,13 @@ The present repository contains:
 
 ## <b> Repository Citation </b>
 
-Please cite this repository as:
+Please cite the code of Roughness analysis as:
 
- <b>  NAME (2024) Code for ...    . https://github.com/EmBrochard/Sculpture-techniques-expertise_Statistics </b>
+ <b>  Brochard É., Courtenay L.A, Doyon L.(2025) Code for quantitative analysis of surface roughness. https://github.com/EmBrochard/Sculpture-techniques-expertise_Statistics </b>
+<br><br> 
+ Please cite the code of Engraving analysis as:
+
+ <b> Courtenay L.A (2025) Code for engraving analysis using morphometric measurements and EFA. https://github.com/EmBrochard/Sculpture-techniques-expertise_Statistics </b>
 
 --------------------------------------------------------
 
@@ -111,7 +147,8 @@ Comments, questions, doubts, suggestions and corrections can all be directed to 
 This project is licensed under the GNU Affero General Public License v3.0.
 See the LICENSE file for details.
 
-<b> Copyright (C) 2025 Emilie Brochard, Lloyd Courtenay, Luc Doyon </b>
+<b> Roughness code: Copyright (C) 2025 Emilie Brochard, Lloyd Courtenay, Luc Doyon </b>
+<b> Engraving codes: Copyright (C) 2025 Lloyd Courtenay </b>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published
