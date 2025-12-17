@@ -69,25 +69,11 @@ The present repository contains:
     * This code provides a complete workflow for analyzing surface parameters: Step 1. Import data; Step 2. Initial statistics (Kruskal-Wallis, circular tests); Step 3. Filter significant and uncorrelated variables; Step 4. PCA; Step 5. LDA /CVA.
 
 --------------------------------------------------------
-## <b> Instructions </b>
+## <b> Instructions for Engraving Profile Analysis </b>
 
 The engraving study must follow the following procedure:
 
-
-* First, for the code to work properly, the folder structure must be respected and organized as follows:
-
-```
-  
-  ├── Dataset          (name that can be modified)
-  │   ├── Images       (name not to modify and keep uppercase + leave empty)
-  │   ├── Profiles     (name not to modify and keep uppercase + leave empty)
-  │   │   ├── Group A   (create a folder in any case inside Profiles; name that can be modified)
-  │   │   ├── Group B   (name that can be modified)
-  │   │   ├── Group C   (name that can be modified)
-  │   │   ├── ...
-```
-
-* Create a main folder with a name of your choice, and inside it, insert the folders Dataset and Source:
+* First, create a main folder with a name of your choice, and inside it, insert the folders Dataset and Source:
 
 ```     
   ├── Folder name
@@ -95,15 +81,37 @@ The engraving study must follow the following procedure:
   │   ├── Source     (EFA Functions.R and  Profile_Code.R – DO NOT MODIFY)
 ```
 
+Dataset will be where all of the profiles will be stored, and the Source folder is for external functions that the code
+requires in order to work.
+
+* Second, for the code to work properly, the folder structure must be respected and organized as follows:
+
+```
+  
+  ├── Dataset          (name that can be modified)
+  │   ├── Images       (name not to modify and keep uppercase + leave empty)
+  │   ├── Profiles     (name not to modify and keep uppercase + leave empty)
+  │   │   ├── Group A   (name that can be modified)
+  │   │   ├── Group B   (name that can be modified)
+  │   │   ├── Group C   (name that can be modified)
+  │   │   ├── ...
+```
+
+Inside the profiles folder create a series of subfolders that contain your sample labels, e.g. degree of expertise, technice for
+engravings, etc. This will then be used by the code to sort all of the information and organise the dataset with factorial
+labels that help us identify where the code comes from
+
 * Turn this into an R project: In R → File → New Project → Existing Directory → paste the path to the folder → OK
   
-* Run the “Engraving_Extract_Data” code. The incision profiles are now available in the “Profiles” folder within each group.
+* Run the “Engraving_Extract_Data” code. Plotted images of the incision profiles are now available in the “Images” folder within each group.
   
-* Run the “Engraving_Analysis” code to continue the study.
+* Run the “Engraving_Analysis” code to continue the study, including statistics.
+
 --------------------------------------------------------
+
 ## <b> System Requirements for Deep Learning </b>
 
-<i> Note that here we specify the versions of the libraries that we used for the present study. We are unaware if earlier or later versions of the same libraries will work or present problems, because we have not tested this, the objective here is simply to state how we ran each of the codes presented </i>
+<i> Note that here we specify the versions of the libraries that we used for the present study. We are unaware if earlier or later versions of the same libraries will work or present problems, because we have not tested this, the objective here is simply to state how we ran each of the codes presented. </i>
 
 * R - <i> v.4.4.1 </i>
 * The following R libraries
@@ -148,6 +156,7 @@ This project is licensed under the GNU Affero General Public License v3.0.
 See the LICENSE file for details.
 
 <b> Roughness code: Copyright (C) 2025 Emilie Brochard, Lloyd Courtenay, Luc Doyon </b>
+
 <b> Engraving codes: Copyright (C) 2025 Lloyd Courtenay </b>
 
 This program is free software: you can redistribute it and/or modify
