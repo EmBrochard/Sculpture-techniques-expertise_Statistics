@@ -76,3 +76,16 @@ Please cite this repository as:
 --------------------------------------------------------
 
 Comments, questions, doubts, suggestions and corrections can all be directed to É. Brochard at the email provided above.
+
+---------------------------------------------------------------------------------------------------
+
+## License
+
+This project is licensed under the GNU Affero General Public License v3.0.
+See the LICENSE file for details.
+
+<b> Copyright (C) 2024 Emilie Brochard, Lloyd Courtenay, Luc Doyon </b>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, version 3.
