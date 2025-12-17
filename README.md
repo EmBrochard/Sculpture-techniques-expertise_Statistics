@@ -18,6 +18,7 @@ Authors listed in alphabetical order
 <b> Contributions </b>: Wrote code for "Roughness".
 
 
+
 <b> Author </b>: Lloyd A. Courtenay
 
 <b> Email </b>: ladc1995@gmail.com
@@ -27,6 +28,7 @@ Authors listed in alphabetical order
 <b> Current Afiliation </b>: University of Bordeaux [CNRS, PACEA UMR5199]
 
 <b> Contributions </b>: Wrote code for "Roughness", "Engraving_Analysis", "Engraving_Extract_Data", "EFA Functions", "Profile_Code".
+
 
 
 <b> Author </b>: Luc Doyon
