@@ -1,5 +1,8 @@
 # Code written by Emilie Brochard, Lloyd Austin Courtenay, Luc Doyon (alphabetical order)
 
+# Copyright (C) 2025 Émilie Brochard, Lloyd Courtenay, Luc Doyon
+# SPDX-License-Identifier: AGPL-3.0
+
 # External functions -------------------------------
 
 circular_variance <- function(x) {
@@ -1911,6 +1914,7 @@ ggsave(file.path(output_dir, "cv_CVA_plot.png"),
 
 confusionMatrix(cv_CVA$groups,
                 cv_CVA$class)
+
 
 
 
