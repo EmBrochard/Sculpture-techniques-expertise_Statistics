@@ -17,7 +17,7 @@ Authors listed in alphabetical order
 
 <b> Contributions </b>: Wrote code for "Roughness".
 
-
+<br>
 
 <b> Author </b>: Lloyd A. Courtenay
 
@@ -29,7 +29,7 @@ Authors listed in alphabetical order
 
 <b> Contributions </b>: Wrote code for "Roughness", "Engraving_Analysis", "Engraving_Extract_Data", "EFA Functions", "Profile_Code".
 
-
+<br>
 
 <b> Author </b>: Luc Doyon
 
