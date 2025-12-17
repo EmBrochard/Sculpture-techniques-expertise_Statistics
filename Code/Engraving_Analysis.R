@@ -109,9 +109,6 @@ summary_stats(measurements$D[measurements$Sample == target_variables])
 summary_stats(measurements$WIS[measurements$Sample == target_variables])
 summary_stats(measurements$A[measurements$Sample == target_variables])
 
-#AJOUT DE MOI
-#ATTENTION AVEC Lower Q et Upper Q, je n'obtiens pas les quartiles donc il faut 
-# que je les calcule moi-meme.
 
 x <- measurements$D[measurements$Sample == target_variables]
 summary(x)
@@ -346,4 +343,5 @@ FPR(p_value) * 100
 # only calculate FPR for p values under 0.368
 
 #
+
 
