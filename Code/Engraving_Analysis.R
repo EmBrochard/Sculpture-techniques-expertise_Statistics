@@ -1,5 +1,8 @@
 # Code written by Lloyd Austin Courtenay
 
+# Copyright (C) 2025 Lloyd Courtenay
+# SPDX-License-Identifier: AGPL-3.0
+
 # load libraries and functions ------------
 
 library(GraphGMM) # Lloyd Courtenay Library
@@ -343,3 +346,4 @@ FPR(p_value) * 100
 # only calculate FPR for p values under 0.368
 
 #
+
