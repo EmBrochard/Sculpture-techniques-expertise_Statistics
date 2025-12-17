@@ -89,13 +89,11 @@ The engraving study must follow the following procedure:
 
 * Create a main folder with a name of your choice, and inside it, insert the folders Dataset and Source:
 
-Folder name
-        Dataset    (names that can be modified)
-        Source     (R code from L.A. Courtenay – DO NOT MODIFY)
-        
+```     
   ├── Folder name
   │   ├── Dataset    (name that can be modified)
   │   ├── Source     (EFA Functions.R and  Profile_Code.R – DO NOT MODIFY)
+```
 
 * Turn this into an R project: In R → File → New Project → Existing Directory → paste the path to the folder → OK
   
