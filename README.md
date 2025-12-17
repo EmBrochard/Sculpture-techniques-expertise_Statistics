@@ -13,6 +13,8 @@ Source code from the article "Carved in stone: Experimental criteria for identif
 
 <b> Current Afiliation </b>: University of Bordeaux [CNRS, PACEA UMR5199]
 
+<b> Contributions </b>: Wrote code for........
+
 ---------------------------------------------------------------------------------------------------
 
 This code has been designed for the open-source free Python programming languages.
