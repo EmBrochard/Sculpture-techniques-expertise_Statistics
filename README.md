@@ -51,8 +51,20 @@ This code has been designed for the open-source free R programming languages.
 
 The present repository contains:
 
-* <b> Code </b>
-  * <b>Engrqving code.R</b>
+* <b> Codes </b>
+   * <b>Source</b>
+    * EFA Functions
+      * This code implements Elliptic Fourier Analysis (EFA) for outline-based shape analysis, including normalization, harmonic selection, PCA-based visualization of shape variation, and statistical diagnostics.
+    * Profile_Code.R
+      * This R script provides a set of functions for the extraction, normalization, visualization, and quantitative analysis of 2D profile data, including geometric measurements, asymmetry indices, landmark-based shape characterization, and circular–linear statistical analyses.
+      <br>
+  * <b>Engraving_Extract_Data.R</b>
+    * This R script provides functions for generating profile images, extracting geometric measurements, computing landmarks, and exporting data for morphometric analyses, including writing Morphologika-compatible files and CSV tables.
+      <br>
+  * <b>Engraving_Analysis.R</b>
+    * This main R script implements a complete analytical pipeline for 2D profile data, combining geometric measurements, circular and linear statistics, multivariate analyses, and elliptic Fourier–based shape and form analyses to investigate morphological variability and group differences.
+      <br>
+  * <b>Roughness.R</b>
     * Code used to .......
 
 --------------------------------------------------------
