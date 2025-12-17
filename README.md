@@ -64,7 +64,22 @@ The present repository contains:
 * R - <i> v.4.4.1 </i>
 * The following R libraries
   * GraphGMM - <i>v.1.0.0</i>
-
+  * pValueRobust - <i>v.0.1.0</i>
+  * geomorph - <i>v.4.0.9</i>
+  * shapes - <i>v.1.2.7</i>
+  * ggplot2 - <i>v.3.5.1</i>
+  * circular - <i>v.0.5.1</i>
+  * RVAideMemoire - <i>v.0.9-83-7</i>
+  * dplyr - <i>v.1.1.4</i>
+  * ggpubr - <i>v.0.6.0</i>
+  * writexl - <i>v.1.5.1</i>
+  * corrplot - <i>v.0.95</i>
+  * FactoMineR - <i>v.2.11</i>
+  * factoextra - <i>v.1.0.7</i>
+  * caret - <i>v.7.0-1</i>
+  * MASS  - <i>v.7.3-60.2</i>
+  * Morpho - <i>v.2.12</i>
+  
 --------------------------------------------------------
 
 ## <b> Repository Citation </b>
