@@ -1,5 +1,5 @@
 # Sculpture-techniques-expertise_Statistics
-This code was used to carry out the study titled <b> "Carved in stone: Experimental criteria for identifying Paleolithic <i>bas-relief<i> production techniques and sculptors’ expertise" </b>, by Émilie Brochard, Luc Doyon, Lloyd A. Courtenay, Gilles Tosello, Lila Geis and Francesco d'Errico, currently under review at <i> PLoS ONE </i>.
+This code was used to carry out the study titled <b> "Carved in stone: Experimental criteria for identifying Paleolithic <i>bas-relief</i> production techniques and sculptors’ expertise" </b>, by Émilie Brochard, Luc Doyon, Lloyd A. Courtenay, Gilles Tosello, Lila Geis and Francesco d'Errico, currently under review at <i> PLoS ONE </i>.
 
 -----------------------------------------------------------------------------------------------------------------
 
