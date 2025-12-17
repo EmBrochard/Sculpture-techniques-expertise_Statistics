@@ -76,6 +76,7 @@ The engraving study must follow the following procedure:
 
 * First, for the code to work properly, the folder structure must be respected and organized as follows:
 
+```
   
   ├── Dataset          (name that can be modified)
   │   ├── Images       (name not to modify and keep uppercase + leave empty)
@@ -84,7 +85,7 @@ The engraving study must follow the following procedure:
   │   │   ├── Group B   (name that can be modified)
   │   │   ├── Group C   (name that can be modified)
   │   │   ├── ...
-
+```
 
 * Create a main folder with a name of your choice, and inside it, insert the folders Dataset and Source:
 
