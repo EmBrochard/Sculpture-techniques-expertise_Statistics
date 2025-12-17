@@ -1,13 +1,13 @@
 # Sculpture-techniques-expertise_Statistics
-Source code from the article "Carved in stone: Experimental criteria for identifying Paleolithic bas-relief production techniques and sculptors’ expertise". This code was used to carry out the study titled <b> TITLE </b>, by AUTHORS, currently under review at the <i> PLoS ONE </i>.
+This code was used to carry out the study titled <b> "Carved in stone: Experimental criteria for identifying Paleolithic bas-relief production techniques and sculptors’ expertise" </b>, by Émilie Brochard, Luc Doyon, Lloyd A. Courtenay, Gilles Tosello, Lila Geis and Francesco d'Errico, currently under review at <i> PLoS ONE </i>.
 
 -----------------------------------------------------------------------------------------------------------------
 
 ## <b> Author Details </b>
 
-<b> Author </b>: NAME
+<b> Author </b>: Émilie Brochard
 
-<b> Email </b>: EMAIL
+<b> Email </b>: emilie.brochard@u-bordeaux.fr
 
 <b> ORCID </b>: ...
 
@@ -17,7 +17,7 @@ Source code from the article "Carved in stone: Experimental criteria for identif
 
 ---------------------------------------------------------------------------------------------------
 
-This code has been designed for the open-source free Python programming languages.
+This code has been designed for the open-source free R programming languages.
 
 ---------------------------------------------------------------------------------------------------
 
