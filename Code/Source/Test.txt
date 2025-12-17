@@ -1,5 +1,0 @@
-# Copyright (C) 2025 Lloyd Courtenay
-# SPDX-License-Identifier: AGPL-3.0
-
-# Copyright (C) 2025 Lloyd Courtenay, Émilie Brochard
-# SPDX-License-Identifier: AGPL-3.0
